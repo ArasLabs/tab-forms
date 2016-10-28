@@ -1,0 +1,119 @@
+<AML>
+  <Item type="ItemType" id="02184EDAA80D499CB6EC94B159966DBE" action="add">
+    <name>Project</name>
+    <Relationships>
+      <Item type="Property" id="9CEB86218D11474D884CC38809CBCB7A" action="add">
+        <column_alignment>left</column_alignment>
+        <data_source keyed_name="labs_Idea" type="ItemType" name="labs_Idea">91114922BDDB44C49E970E748DC925C4</data_source>
+        <data_type>item</data_type>
+        <is_hidden>1</is_hidden>
+        <is_hidden2>1</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <item_behavior>float</item_behavior>
+        <label xml:lang="en">Brief</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>11648</sort_order>
+        <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+        <track_history>0</track_history>
+        <name>brief</name>
+      </Item>
+      <Item type="Property" id="D2A60E76C05047FFBFA960A896781332" action="add">
+        <column_alignment>left</column_alignment>
+        <data_source>
+          <Item type="Property" action="get" select="id">
+            <name>brief</name>
+            <source_id>02184EDAA80D499CB6EC94B159966DBE</source_id>
+          </Item>
+        </data_source>
+        <data_type>foreign</data_type>
+        <foreign_property>
+          <Item type="Property" action="get" select="id">
+            <keyed_name>description</keyed_name>
+            <source_id>
+              <Item type="ItemType" action="get" select="id">
+                <name>labs_Idea</name>
+              </Item>
+            </source_id>
+          </Item>
+        </foreign_property>
+        <is_hidden>1</is_hidden>
+        <is_hidden2>1</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="en">Marketing Brief Description</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>11904</sort_order>
+        <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+        <track_history>0</track_history>
+        <name>brief_description</name>
+      </Item>
+      <Item type="Property" id="5558337A076B42178F6C6EFB80B9C998" action="add">
+        <column_alignment>left</column_alignment>
+        <data_source>
+          <Item type="Property" action="get" select="id">
+            <name>brief</name>
+            <source_id>02184EDAA80D499CB6EC94B159966DBE</source_id>
+          </Item>
+        </data_source>
+        <data_type>foreign</data_type>
+        <foreign_property>
+          <Item type="Property" action="get" select="id">
+            <keyed_name>title</keyed_name>
+            <source_id>
+              <Item type="ItemType" action="get" select="id">
+                <name>labs_Idea</name>
+              </Item>
+            </source_id>
+          </Item>
+        </foreign_property>
+        <is_hidden>1</is_hidden>
+        <is_hidden2>1</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="en">Marketing Brief Title</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>11776</sort_order>
+        <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+        <track_history>0</track_history>
+        <name>brief_title</name>
+      </Item>
+
+      <Item type="View" id="052FAEC96CE44FC9A3FB6D6A677442EC" action="add">
+        <client>js</client>
+        <display_priority>1000</display_priority>
+        <related_id keyed_name="labs_MarketingBriefTab" type="Form">B7C3897ECD4C494786BE275667903F18</related_id>
+        <role keyed_name="World" type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </role>
+        <show_ssvc>0</show_ssvc>
+        <sort_order>512</sort_order>
+        <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+        <type>default</type>
+      </Item>
+      <Item type="Server Event" id="169BE2110C59405181F2D2AD6E05A263" action="add">
+        <event_version>version_1</event_version>
+        <is_required>0</is_required>
+        <related_id keyed_name="labs_NewProjectBrief" type="Method">
+          <Item type="Method" action="get" select="id">
+            <name>labs_NewProjectBrief</name>
+          </Item>
+        </related_id>
+        <server_event>onBeforeAdd</server_event>
+        <sort_order>2000</sort_order>
+        <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="Method" id="E9A5A9101AD34B329FDA6BECDA98AEA7" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var project = document.thisItem;
+var brief_id = project.getProperty("brief","");
+
+if (brief_id === "")
+    return alert("No Marketing Brief assigned to this Project");
+    
+top.aras.uiShowItem("labs_Idea",brief_id,"tab view");]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>labs_ViewBrief</name>
+ </Item>
+</AML>

@@ -1,0 +1,139 @@
+﻿<AML>
+ <Item type="Form" id="B7C3897ECD4C494786BE275667903F18" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>labs_MarketingBriefTab</name>
+  <Relationships>
+   <Item type="Body" id="54187671D52A4368A813AE8C196E18EA" action="add">
+    <bg_color>#e6e6fa</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="labs_MarketingBriefTab" type="Form">B7C3897ECD4C494786BE275667903F18</source_id>
+    <Relationships>
+     <Item type="Field" id="96FBFA0A6F5945CAA869362F3D4A4CE5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="brief_description" type="Property">D2A60E76C05047FFBFA960A896781332</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>300</textarea_cols>
+      <textarea_rows>75</textarea_rows>
+      <x>145</x>
+      <y>105</y>
+      <name>tab_description</name>
+     </Item>
+     <Item type="Field" id="131DF5B67CB94E61BD03DFAEA848AAED" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>label</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>20pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Marketing Brief Summary</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>15</y>
+      <name>tab_header</name>
+     </Item>
+     <Item type="Field" id="E6ECEE243643495E9AD4CA3B6B1F357A" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<img src="../images/Forum.svg" width="100px" />]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>65</y>
+      <name>tab_icon</name>
+     </Item>
+     <Item type="Field" id="EA0CBB72164D4FB98B25611784FDB55F" action="add">
+      <border_width>0</border_width>
+      <display_length>300</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Working Title</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="brief_title" type="Property">5558337A076B42178F6C6EFB80B9C998</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
+      <tab_stop>1</tab_stop>
+      <x>145</x>
+      <y>65</y>
+      <name>tab_title</name>
+     </Item>
+     <Item type="Field" id="1F49D736D92743F4B70A3D11693E6C21" action="add">
+      <border_width>0</border_width>
+      <css>width: 85px;
+background-color: #3668b1;
+text-align: center;</css>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">View Brief</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
+      <tab_stop>1</tab_stop>
+      <x>25</x>
+      <y>172</y>
+      <name>tab_view_brief_btn</name>
+      <Relationships>
+       <Item type="Field Event" id="68A724A7A91B4C0785B51DF4D86CCBF6" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="labs_ViewBrief" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>labs_ViewBrief</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="tab_view_brief_btn" type="Field">1F49D736D92743F4B70A3D11693E6C21</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
