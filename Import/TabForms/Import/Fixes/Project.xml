@@ -1,7 +1,5 @@
 <AML>
-  <Item type="ItemType" id="02184EDAA80D499CB6EC94B159966DBE" action="add">
-    <name>Project</name>
-    <Relationships>
+
       <Item type="Property" id="9CEB86218D11474D884CC38809CBCB7A" action="add">
         <column_alignment>left</column_alignment>
         <data_source keyed_name="labs_Idea" type="ItemType" name="labs_Idea">91114922BDDB44C49E970E748DC925C4</data_source>
@@ -114,6 +112,5 @@
         <sort_order>2000</sort_order>
         <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
       </Item>
-    </Relationships>
-  </Item>
+
 </AML>
