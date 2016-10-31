@@ -74,6 +74,8 @@ _Note: If you have not previously done so, you will need to create a Variable ca
 
 The Marketing Brief tab has now been updated with the current content.
 
+![Marketing Brief Tab Form](./Screenshots/screenshot1.PNG)
+
 ## Contributing
 
 1. Fork it!
