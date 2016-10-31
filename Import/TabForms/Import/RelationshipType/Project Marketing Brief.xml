@@ -29,21 +29,6 @@
         <unlock_on_logout>0</unlock_on_logout>
         <use_src_access>1</use_src_access>
         <name>Project Marketing Brief</name>
-        <Relationships>
-          <Item type="View" id="2E27B2DF4AF04F8DBEE25279649030A4" action="add">
-            <client>js</client>
-            <related_id keyed_name="Project Marketing Brief" type="Form">D0402ABB263746D099CA19530E83A349</related_id>
-            <role keyed_name="World" type="Identity">
-              <Item type="Identity" action="get" select="id">
-                <name>World</name>
-              </Item>
-            </role>
-            <show_ssvc>0</show_ssvc>
-            <sort_order>128</sort_order>
-            <source_id keyed_name="Project Marketing Brief" type="ItemType" name="Project Marketing Brief">AAA91C3DC1384E5E9BA84B3698BE553D</source_id>
-            <type>default</type>
-          </Item>
-        </Relationships>
       </Item>
     </relationship_id>
     <sort_order>388</sort_order>

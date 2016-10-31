@@ -71,7 +71,7 @@
       <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
       <tab_stop>1</tab_stop>
       <x>10</x>
-      <y>65</y>
+      <y>54</y>
       <name>tab_icon</name>
      </Item>
      <Item type="Field" id="EA0CBB72164D4FB98B25611784FDB55F" action="add">
@@ -116,8 +116,8 @@ text-align: center;</css>
       <sort_order>640</sort_order>
       <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
       <tab_stop>1</tab_stop>
-      <x>25</x>
-      <y>172</y>
+      <x>23</x>
+      <y>156</y>
       <name>tab_view_brief_btn</name>
       <Relationships>
        <Item type="Field Event" id="68A724A7A91B4C0785B51DF4D86CCBF6" action="add">
@@ -129,6 +129,41 @@ text-align: center;</css>
         </related_id>
         <sort_order>128</sort_order>
         <source_id keyed_name="tab_view_brief_btn" type="Field">1F49D736D92743F4B70A3D11693E6C21</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="61CAB12CE4EA4FA8900D640BAA2A69E0" action="add">
+      <border_width>0</border_width>
+      <css>width: 85px;
+background-color: #3668b1;
+text-align: center;</css>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Refresh </label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="54187671D52A4368A813AE8C196E18EA" type="Body">54187671D52A4368A813AE8C196E18EA</source_id>
+      <tab_stop>1</tab_stop>
+      <x>22</x>
+      <y>188</y>
+      <name>tab_view_refresh</name>
+      <Relationships>
+       <Item type="Field Event" id="94C1805F02D34B208711DE93D36E1AD0" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="labs_RefreshTabForm" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>labs_RefreshTabForm</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="tab_view_refresh" type="Field">61CAB12CE4EA4FA8900D640BAA2A69E0</source_id>
        </Item>
       </Relationships>
      </Item>
