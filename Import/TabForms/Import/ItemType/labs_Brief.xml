@@ -1,0 +1,87 @@
+<AML>
+  <Item type="ItemType" id="91114922BDDB44C49E970E748DC925C4" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>1</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>LABS_BRIEF</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>0</is_relationship>
+    <is_versionable>0</is_versionable>
+    <label xml:lang="en">Idea</label>
+    <label_plural xml:lang="en">Ideas</label_plural>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs off</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>0</use_src_access>
+    <name>labs_Brief</name>
+    <Relationships>
+      <Item type="Property" id="7FE7E74B7FCB4D09AE7C77932E7EDC29" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>text</data_type>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="en">Description</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3200</sort_order>
+        <source_id keyed_name="labs_Brief" type="ItemType" name="labs_Brief">91114922BDDB44C49E970E748DC925C4</source_id>
+        <track_history>0</track_history>
+        <name>description</name>
+      </Item>
+      <Item type="Property" id="D36DA6AE89D540B597026ECB55763AC3" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>string</data_type>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="en">Working Title</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3072</sort_order>
+        <source_id keyed_name="labs_Brief" type="ItemType" name="labs_Brief">91114922BDDB44C49E970E748DC925C4</source_id>
+        <stored_length>200</stored_length>
+        <track_history>0</track_history>
+        <name>title</name>
+      </Item>
+      <Item type="View" id="673CE56343F1472F9840E24C91F6635C" action="add">
+        <client>js</client>
+        <related_id keyed_name="labs_Brief" type="Form">380F0D5CE8AC49F389DB11BBC90F2E14</related_id>
+        <role keyed_name="World" type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </role>
+        <show_ssvc>0</show_ssvc>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="labs_Brief" type="ItemType" name="labs_Brief">91114922BDDB44C49E970E748DC925C4</source_id>
+        <type>default</type>
+      </Item>
+      <Item type="Can Add" id="E59772C1371544A38FFA25C77B7C8257" action="add">
+        <can_add>1</can_add>
+        <related_id keyed_name="World" type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="labs_Brief" type="ItemType" name="labs_Brief">91114922BDDB44C49E970E748DC925C4</source_id>
+      </Item>
+      <Item type="Allowed Permission" id="03198CD0E3EB468BB8C8F9FC4444E2DD" action="add">
+        <is_default>1</is_default>
+        <related_id keyed_name="Project" type="Permission">1E63D742A5794F8DB995A5298A202C4C</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="labs_Brief" type="ItemType" name="labs_Brief">91114922BDDB44C49E970E748DC925C4</source_id>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

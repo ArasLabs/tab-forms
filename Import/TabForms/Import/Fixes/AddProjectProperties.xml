@@ -1,0 +1,87 @@
+<AML>
+  <Item type="Property" id="9CEB86218D11474D884CC38809CBCB7A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="labs_Brief" type="ItemType" name="labs_Brief">91114922BDDB44C49E970E748DC925C4</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Brief</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11648</sort_order>
+    <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+    <track_history>0</track_history>
+    <name>brief</name>
+  </Item>
+  <Item type="Property" id="D2A60E76C05047FFBFA960A896781332" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+      <Item type="Property" action="get" select="id">
+        <name>brief</name>
+        <source_id>02184EDAA80D499CB6EC94B159966DBE</source_id>
+      </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+      <Item type="Property" action="get" select="id">
+        <keyed_name>description</keyed_name>
+        <source_id>
+          <Item type="ItemType" action="get" select="id">
+            <name>labs_Brief</name>
+          </Item>
+        </source_id>
+      </Item>
+    </foreign_property>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Marketing Brief Description</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11904</sort_order>
+    <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+    <track_history>0</track_history>
+    <name>brief_description</name>
+  </Item>
+  <Item type="Property" id="5558337A076B42178F6C6EFB80B9C998" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+      <Item type="Property" action="get" select="id">
+        <name>brief</name>
+        <source_id>02184EDAA80D499CB6EC94B159966DBE</source_id>
+      </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+      <Item type="Property" action="get" select="id">
+        <keyed_name>title</keyed_name>
+        <source_id>
+          <Item type="ItemType" action="get" select="id">
+            <name>labs_Brief</name>
+          </Item>
+        </source_id>
+      </Item>
+    </foreign_property>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Marketing Brief Title</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11776</sort_order>
+    <source_id keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</source_id>
+    <track_history>0</track_history>
+    <name>brief_title</name>
+  </Item>
+</AML>

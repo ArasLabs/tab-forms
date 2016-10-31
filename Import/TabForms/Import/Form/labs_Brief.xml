@@ -4,12 +4,12 @@
   <height>234</height>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>699</width>
-  <name>labs_Idea</name>
+  <name>labs_Brief</name>
   <Relationships>
    <Item type="Body" id="D2B33507E43C4FD2BC0475587EB11D43" action="add">
     <bg_color>#FFFFFF</bg_color>
     <sort_order>128</sort_order>
-    <source_id keyed_name="labs_Idea" type="Form">380F0D5CE8AC49F389DB11BBC90F2E14</source_id>
+    <source_id keyed_name="labs_Brief" type="Form">380F0D5CE8AC49F389DB11BBC90F2E14</source_id>
     <Relationships>
      <Item type="Field" id="C3C868C50E544A63B9973271D5EC0959" action="add">
       <border_width>0</border_width>
@@ -53,7 +53,7 @@
       <tab_stop>1</tab_stop>
       <x>13</x>
       <y>41</y>
-      <name>Html0</name>
+      <name>icon</name>
      </Item>
      <Item type="Field" id="2AD3C7DDDE0E46C29ECD20144CFE11E0" action="add">
       <border_width>0</border_width>
@@ -73,7 +73,7 @@
       <tab_stop>1</tab_stop>
       <x>5</x>
       <y>11</y>
-      <name>text1</name>
+      <name>header</name>
      </Item>
      <Item type="Field" id="AC07D068AC8249E1BEE8021FCFF91EAF" action="add">
       <border_width>0</border_width>

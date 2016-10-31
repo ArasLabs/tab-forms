@@ -5,7 +5,7 @@
 // Eli Donahue - 10/25/16
 // Add a new brief to a new project for demonstrating tab forms
 
-Item brief = this.newItem("labs_Idea","add");
+Item brief = this.newItem("labs_Brief","add");
 brief.setProperty("title","New Brief for Project");
 brief = brief.apply();
 

@@ -6,8 +6,8 @@ var brief_id = project.getProperty("brief","");
 
 if (brief_id === "")
     return alert("No Marketing Brief assigned to this Project");
-    
-top.aras.uiShowItem("labs_Idea",brief_id,"tab view");]]></method_code>
+
+top.aras.uiShowItem("labs_Brief",brief_id,"tab view");]]></method_code>
   <method_type>JavaScript</method_type>
   <name>labs_ViewBrief</name>
  </Item>
