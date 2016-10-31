@@ -35,26 +35,6 @@
       <y>50</y>
       <name>description</name>
      </Item>
-     <Item type="Field" id="213590B3184F4B7EABB2341159C5C49A" action="add">
-      <border_width>0</border_width>
-      <display_length_unit>px</display_length_unit>
-      <field_type>html</field_type>
-      <font_color>#000000</font_color>
-      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
-      <font_size>8pt</font_size>
-      <font_weight>bold</font_weight>
-      <html_code><![CDATA[<img src="../images/Forum.svg" width="100px" />]]></html_code>
-      <is_disabled>0</is_disabled>
-      <is_visible>1</is_visible>
-      <label_position>top</label_position>
-      <list_no_blank>0</list_no_blank>
-      <sort_order>512</sort_order>
-      <source_id keyed_name="D2B33507E43C4FD2BC0475587EB11D43" type="Body">D2B33507E43C4FD2BC0475587EB11D43</source_id>
-      <tab_stop>1</tab_stop>
-      <x>13</x>
-      <y>41</y>
-      <name>icon</name>
-     </Item>
      <Item type="Field" id="2AD3C7DDDE0E46C29ECD20144CFE11E0" action="add">
       <border_width>0</border_width>
       <display_length_unit>px</display_length_unit>
@@ -74,6 +54,26 @@
       <x>5</x>
       <y>11</y>
       <name>header</name>
+     </Item>
+     <Item type="Field" id="213590B3184F4B7EABB2341159C5C49A" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<img src="../images/Forum.svg" width="100px" />]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="D2B33507E43C4FD2BC0475587EB11D43" type="Body">D2B33507E43C4FD2BC0475587EB11D43</source_id>
+      <tab_stop>1</tab_stop>
+      <x>13</x>
+      <y>41</y>
+      <name>icon</name>
      </Item>
      <Item type="Field" id="AC07D068AC8249E1BEE8021FCFF91EAF" action="add">
       <border_width>0</border_width>

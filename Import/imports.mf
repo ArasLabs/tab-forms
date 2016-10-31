@@ -1,3 +1,6 @@
 <imports>
   <package name="aras.labs.TabForms" path="TabForms\Import" />
+  <package name="com.aras.innovator.solution.Project" path="Project\Import">
+    <dependson name="com.aras.innovator.solution.PLM" />
+  </package>
 </imports>
