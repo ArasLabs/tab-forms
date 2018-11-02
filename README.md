@@ -21,7 +21,7 @@ Internet Explorer 11, Firefox 38 ESR, Chrome
 
 This package implements a use case where all Project items have an associated Marketing Brief, which is displayed in a Marketing Brief tab on the Project form.
 
-> Note: For simplicity the Marketing Brief tab's form is read-only, with a button to open the Marketing Brief's item form in its own window. It may be possible to create an editable tab form, but it would require additional custom code outside the current scope of this project.
+> Note: For simplicity, the Marketing Brief tab's form is read-only, with a button to open the Marketing Brief's item form in its own window. It may be possible to create an editable tab form, but it would require additional custom code outside the current scope of this project.
 
 The Marketing Brief is represented by the new labs_Brief ItemType. The package adds several properties to the Project ItemType: Item property `brief_id`, foreign property `brief_title`, and foreign property `brief_description`. The `brief_id` property is used to associate a Marketing Brief to a Project, and the `brief_title` and `brief_description` properties are used to display the Marketing Brief data on the tab form.
 
